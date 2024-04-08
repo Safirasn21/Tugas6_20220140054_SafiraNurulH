@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Halaman Biodata</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=great+vibes&family=lobster+two&family=send+flowers&display=swap" rel="stylesheet">
+</head>
+<body>
+    <center>
+        <h1>BOYNEXTDOOR</h1>
+        <ul>
+            <li>
+                <h2 id="Video">Video Serenade</h2>
+                <hr>
+                <video id="Video" controls width="1000" height="500" loop autoplay muted preload="auto">
+                    <source src="Video Serenade.mp4" type="video/mp4">
+                    <track kind="captions" src="Video Serenade.mp4" srclang="en" label="English">
+                </video>
+            </li>
+            <li>
+                <h2 id="Audio">Audio Serenade</h2>
+                <hr>
+                <audio id="Audio" controls>
+                    <source src="Audio Serenade.mp3" type="audio/mp3">
+                </audio>
+            </li>
+            <li>
+                <h2 id="Gambar">Gambar Responsif</h2>
+                <hr>
+                <picture>
+                <source media="(max-width: 600px)" srcset="https://pbs.twimg.com/media/GKe6kWKbAAA8Jdh?format=jpg&name=4096x4096">
+                <source media="(max-width: 1200px)" srcset="https://pbs.twimg.com/media/GKe6kWKbAAA8Jdh?format=jpg&name=4096x4096">
+                <img src="https://pbs.twimg.com/media/GKUnFzVawAA5ziY?format=jpg&name=4096x4096" alt="pic 1" style="width: 100%;">
+                </picture>
+
+            </li>
+        </ul>
+    </center>
+    <script src="script.js"></script>
+</body>
+</html>

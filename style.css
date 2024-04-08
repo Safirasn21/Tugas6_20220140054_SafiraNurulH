@@ -1,0 +1,25 @@
+body {
+    background-image: url(https://pbs.twimg.com/media/GKjjPleb0AApzdq?format=jpg&name=4096x4096);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1 {
+    font-family: 'Great vibes', cursive;
+    color: #ffff;
+}
+
+h2 {
+    font-family: 'Lobster Two', cursive;
+    letter-spacing: 1px;
+        text-transform: uppercase;
+        text-align: center;
+        border: 2px solid #2037b7;
+        background: #2037b7;
+        color: #e9f14d;
+        box-shadow: 1px 1px 2px #0b0909;
+        border-radius: 10px;
+        padding: 3px 10px;
+        cursor: pointer;
+}
